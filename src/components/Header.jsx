@@ -24,9 +24,9 @@ function Header({ onMenuClick }) {
         {/* Right Side */}
         <div className="flex items-center space-x-4">
           {/* Status Badge */}
-          <div className="hidden sm:flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-purple-700 to-pink-600 text-white rounded-lg shadow-glow">
-            <div className="w-2 h-2 rounded-full bg-emerald-300 animate-pulse" />
-            <span className="text-xs font-semibold">15 days left</span>
+          <div className="hidden sm:flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-orange-100 to-amber-100 dark:from-purple-700 dark:to-pink-600 rounded-lg border border-orange-200 dark:border-transparent shadow-sm dark:shadow-glow">
+            <div className="w-2 h-2 rounded-full bg-orange-500 dark:bg-emerald-300 animate-pulse" />
+            <span className="text-xs font-semibold text-orange-800 dark:text-white">15 days left</span>
           </div>
 
           {/* Notifications */}
