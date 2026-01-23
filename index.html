@@ -160,6 +160,13 @@
         body.dark-mode .bg-green-50 { background: rgba(34, 197, 94, 0.1) !important; }
         body.dark-mode .bg-orange-50 { background: rgba(249, 115, 22, 0.1) !important; }
         body.dark-mode .bg-red-50 { background: rgba(239, 68, 68, 0.1) !important; }
+        
+        /* Fix days-left badge in dark mode */
+        body.dark-mode .bg-orange-50.border-orange-200 { 
+            background: #475569 !important; 
+            border-color: #64748b !important; 
+        }
+        
         body.dark-mode .text-gradient { 
             background: linear-gradient(135deg, #a78bfa 0%, #c084fc 100%);
             -webkit-background-clip: text;
